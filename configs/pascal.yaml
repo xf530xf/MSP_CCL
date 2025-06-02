@@ -1,7 +1,7 @@
 # arguments for dataset
 dataset: pascal
 nclass: 21
-crop_size: 713
+crop_size: 321
 data_root: /data2/XF/Datasets/VOC2012
 
 # arguments for training
