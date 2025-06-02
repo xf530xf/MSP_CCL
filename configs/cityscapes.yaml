@@ -1,7 +1,7 @@
 # arguments for dataset
 dataset: cityscapes
 nclass: 19
-crop_size: 713
+crop_size: 513
 data_root: /media/ubuntu/cdb918a9-e3b3-40a1-bf0e-97b8b44001ca/XF/Datasets/Cityspaces
 
 # arguments for training
