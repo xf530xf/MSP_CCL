@@ -64,3 +64,20 @@ Please modify your dataset path in configuration files.
 
 ## Usage
 
+### MSPL
+
+```bash
+# use torch.distributed.launch
+sh scripts/train.sh <num_gpu> <port>
+# to fully reproduce our results, the <num_gpu> should be set as 4 on all three datasets
+# otherwise, you need to adjust the learning rate accordingly
+
+# or use slurm
+# sh scripts/slurm_train.sh <num_gpu> <port> <partition>
+```
+
+To train on other datasets or splits, please modify
+``dataset`` and ``split`` in [train.sh](https://github.com/xf530xf/MSP_CCL/scripts/train.sh).
+
+
+
