@@ -20,8 +20,8 @@ Labeled images are sampled from the **original high-quality** training set. Resu
 
 ```bash
 cd UniMatch
-conda create -n unimatch python=3.10.4
-conda activate unimatch
+conda create -n mspl python=3.10.4
+conda activate mspl
 pip install -r requirements.txt
 pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 -f https://download.pytorch.org/whl/torch_stable.html
 ```
