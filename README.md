@@ -3,7 +3,7 @@
 
 ### Pascal VOC 2012
 
-Labeled images are sampled from the **original high-quality** training set. Results are obtained by DeepLabv3+ based on ResNet-101 with training size 321.
+Labeled images are sampled from the **original high-quality** training set. Results are obtained by DeepLabv3+ based on ResNet-101.
 
 | Method                      | 1/16 (92) | 1/8 (183) | 1/4 (366) | 1/2 (732) | Full (1464) |
 | :-------------------------: | :-------: | :-------: | :-------: | :-------: | :---------: |
