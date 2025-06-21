@@ -19,7 +19,7 @@ Labeled images are sampled from the **original high-quality** training set. Resu
 ### Installation
 
 ```bash
-cd UniMatch
+cd MSP_CCL
 conda create -n mspl python=3.10.4
 conda activate mspl
 pip install -r requirements.txt
